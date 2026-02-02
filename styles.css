@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    font-family: 'Syne';
+    color: #333;
+    font-size: 18px;
+    font-family: 'Syne';
+    background: #0c121e;
+}
+h1{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 70px;
+    font-family: 'Syne';
+    font-weight: 700;
+    color: #9eee32;
+}
+input,
+textarea {
+    color: #ffffff;
+    font-family: 'Syne';
+    font-size: 16px;
+    font-weight: 400;
+    caret-color: #9cff3a;
+}
+
+.sign-in-form{
+    width: 300px;
+    margin: 80px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background: linear-gradient(145deg, #1f2938, #1f2938);
+    box-shadow:  23px 23px 45px #1f2938,-23px -23px 45px #1f2938;
+    color: #ffffff;
+}
+.sign-in-form label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.sign-in-form input[type="text"],
+.sign-in-form input[type="password"],
+.sign-in-form input[type="email"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: inset 23px 23px 45px #1f2938,inset -23px -23px 45px #1f2938;
+}
+.sign-in-form input[type="text"]:focus,
+.sign-in-form input[type="password"]:focus,
+.sign-in-form input[type="email"]:focus{
+    border-color: #888;
+    outline: none;
+}
+.sign-in-form input[type="text"]:hover,
+.sign-in-form input[type="password"]:hover,
+.sign-in-form input[type="email"]:hover{
+    border-color: #ffffff;
+}
+
+.btn{
+    font-family: 'Syne';
+    width: 100%;
+    padding: 10px;
+    background: #777C6D;
+    box-shadow: inset 23px 23px 45px #9eee32,inset -23px -23px 45px #1f2938;
+    color: white;
+    border: 1px solid #EEEEEE;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    cursor: pointer;
+    font-size: 21px;
+    margin-top: 110px;
+}
+.btn2{
+    font-family: 'Syne';
+    width: 100%;
+    padding: 10px;
+    box-shadow: inset 23px 23px 45px #2f4237,inset -23px -23px 45px #1f2938;
+    color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    cursor: pointer;
+    font-size: 21px;
+    margin-top: 20px;
+    
+}
+.btn:hover, .btn2:hover {
+    filter: grayscale(50%);
+    transition: all 0.1s ease;
+}
